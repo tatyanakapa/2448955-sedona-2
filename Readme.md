@@ -2,7 +2,7 @@
 
 * Студент: [Татьяна Капламова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2448955).
 * Наставник:[Артем Именин] (https://htmlacademy.ru/profile/aimenin).
-
+* Сайт:[Мой проект Седона ](https://tatyanakapa.github.io/2448955-sedona-2/) 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
