@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Татьяна Капламова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2448955).
-* Наставник: `Неизвестно`.
+* Наставник:[Артем Именин] (https://htmlacademy.ru/profile/aimenin).
 
 ---
 
