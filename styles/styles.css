@@ -1,3 +1,148 @@
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+  }
+
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+
+
 body {
-  background-color: tomato;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "PT Sans",sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  background-color: white;
+  width: 1200px;
+
+}
+
+/* Pages */
+.page-header {color: black;
+background-color: #FFFFFF;
+text-align: center;
+}
+
+.navigation {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+
+  width: 600px;
+  height: 64px;
+}
+
+.navigation-user {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: auto;
+  width: 300px;
+  height: 64px;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  background: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.description {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description-text {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.text-cause {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.images-city {
+  display: block;
+}
+
+
+.hero {
+   background-image: url("images/Rectangle 63.svg"), url("../images/foto/index-background.jpg");
+   background-size: 100% auto,1200px 475px;
+   background-repeat: no-repeat;
+   background-position: left bottom, left top;
+
+}
+.advantages-item {
+  background: #82b3d3;
+}
+.advantages {
+  font-family:30px;
+  line-height:36px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: #000000;
+  background: color #333333;
+
+}
+
+.advantages-item {
+  font-family:30px;
+  line-height:36px;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+  color: #FFFFFF;
+  background: color #FFFFFF;
 }
